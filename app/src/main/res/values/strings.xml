@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WidgetPinning</string>
+    <string name="widget_name">Demo Widget</string>
+    <string name="app_widget_description">This is a sample widget</string>
 </resources>
