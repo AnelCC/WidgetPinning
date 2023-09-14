@@ -1,4 +1,4 @@
-package com.anelcc.widgetpinning
+package com.anelcc.widgetpinning.widget
 
 import android.content.Context
 import androidx.compose.runtime.Composable
@@ -11,6 +11,8 @@ import androidx.glance.appwidget.provideContent
 import androidx.glance.layout.Alignment
 import androidx.glance.layout.Row
 import androidx.glance.layout.fillMaxSize
+import com.anelcc.widgetpinning.MainActivity
+import com.anelcc.widgetpinning.R
 
 class SampleWidget: GlanceAppWidget() {
     override suspend fun provideGlance(context: Context, id: GlanceId) {
