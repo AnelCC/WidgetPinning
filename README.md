@@ -12,16 +12,22 @@ On devices running Android 8.0 (API level 26) and higher, launchers that let use
 ### Information widgets
 Information widgets typically display crucial information elements and track how that information changes over time. Examples of information widgets are weather widgets, clock widgets, or sports score tracking widgets. Tapping information widgets typically launches the associated app and opens a detailed view of the widget information.
 
+<img src="https://raw.githubusercontent.com/AnelCC/WidgetPinning/refs/heads/main/images/widget6.png" width="290" height="270"/>
+
 ### Collection widgets
 Collection widgets specialize in displaying multiple elements of the same type, such as a collection of pictures from a gallery app, a collection of articles from a news app, or a collection of emails or messages from a communication app. Collection widgets can scroll vertically.
 Collection widgets typically focus on the following use cases:
- * Browsing the collection.
- * Opening an element of the collection to its detail view in the associated app.
- * Interacting with elements, such as marking them done—with support for compound buttons in Android 12 (API level 31).
+* Browsing the collection.
+* Opening an element of the collection to its detail view in the associated app.
+* Interacting with elements, such as marking them done—with support for compound buttons in Android 12 (API level 31).
+
+<img src="https://raw.githubusercontent.com/AnelCC/WidgetPinning/refs/heads/main/images/widget7.png" width="280" height="300"/>
 
 ### Control widgets
 The main purpose of a control widget is to display frequently used functions so that the user can trigger them from the home screen without having to open the app. You can think of them as remote controls for an app. An example of a control widget is a home control widget that lets users turn lights in the house on or off.
 Interacting with a control widget might open an associated detail view in the app. This depends on whether the control widget's function outputs any data, such as in the case of a search widget.
+
+<img src="https://raw.githubusercontent.com/AnelCC/WidgetPinning/refs/heads/main/images/widget8.png" width="320" height="100"/>
 
 ### Hybrid widgets
 While some widgets represent one of the types in the preceding sections—information, collection, or control—many widgets are hybrids that combine elements of different types. For example, a music player widget is primarily a control widget, but it also shows the user what track is currently playing, like an information widget.
